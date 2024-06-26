@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+}
+/* #main {
+  position: relative;
+} */
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#mobileNavbar {
+  height: 45vw;
+  width: 25vw;
+  background-color: rgba(7, 7, 7, 0.441);
+  backdrop-filter: blur(12px);
+  position: absolute;
+  top: 2vh;
+  right: -27vw;
+  border: 2px solid white;
+}
+#mobileNavbar h4 {
+  padding-left: 5vw;
+}
+#mobileNavbar #fist {
+  padding-top: 5vw;
+}
+#mobileNavbar i {
+  position: absolute;
+  top: 1vw;
+  right: 1vw;
+  background-color: #fff;
+  border-radius: 50%;
+  color: black;
+  cursor: pointer;
+}
+#nav i {
+  cursor: pointer;
+}
